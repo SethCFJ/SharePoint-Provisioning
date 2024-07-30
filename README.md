@@ -81,12 +81,6 @@ Disconnect-PnPOnline
 - Automates the creation and application of templates to sites
 - Is fully modular and allows the user to input any credential and host site values upon the script running.
 
----
-
-## Known issues
-
-- Testing not currently working on the backend
-- Delete sometimes deletes twice causing an error message on the frontend as it tries to delete an unknown employee
 
 ---
 
