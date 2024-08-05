@@ -67,7 +67,14 @@ Disconnect-PnPOnline
 
 
 ```
+---
+## Question 6/7
 
+### Question 6
+To apply the script online via Azure I would create a SharePoint List. I would then create a new Azure Function with a HTTP trigger allowing the script to be added to the Azure storage queue when a HTTP request is made. This request can then be created by the REST API and messaging for the queue can then be added through Microsoft Flow.
+
+### Question 7
+The most common way to allow other systems to send/recieve data into this script would be through HTTP requests. HTTP requests being very modular and most systems have the ability to invoke these requests. Commonly it would be a REST API which would be my method of implementation. Microsoft Flow also gives messaging regardless of the system allowing the script to send out logs regarding the queue status. 
 ---
 
 ## Approach
