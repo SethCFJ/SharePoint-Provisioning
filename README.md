@@ -47,7 +47,7 @@ for ($i = 1; $i -le $siteNumber; $i++) {
         Write-Host "Failed to create site: $siteUrl. Error: $_"
         continue
     }
-    Start-Sleep -Seconds 60
+    Start-Sleep -Seconds 90
     Connect-PnPOnline -Url $siteUrl -Interactive
 
     try {
